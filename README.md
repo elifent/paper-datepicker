@@ -7,7 +7,7 @@ Polymer 3 date picker element that uses material design specifications. Datepick
 ## Installation
 
 ```
-npm install --save @elifent/paper-paper-datepicker
+npm install --save @elifent/paper-datepicker
 ```
 
 ## In an html file
@@ -20,7 +20,7 @@ npm install --save @elifent/paper-paper-datepicker
     </script>
   </head>
   <body>
-    <paper-datepicker h-backdrop opened date="{{demoDate}}"></paper-datepicker>
+    <paper-datepicker with-backdrop opened date="{{demoDate}}"></paper-datepicker>
   </body>
 </html>
 ```

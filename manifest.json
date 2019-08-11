@@ -1,0 +1,12 @@
+{
+  "files": {
+    "index.html": {
+      "convertedUrl": "index.html",
+      "exports": {}
+    },
+    "demo/index.html": {
+      "convertedUrl": "demo/index.html",
+      "exports": {}
+    }
+  }
+}

@@ -9,7 +9,7 @@ Copyright (c) 2019 elifents. All rights reserved.
  * @elifent
  */
 
-/*
+/**
     paper-datepicker is a polymer element which used material design theme. paper-datepicker gives a modal dialog.
     Hence it can used with any other elemts like paper-button or paper-input and then read and write values using custom 
     element properties.
@@ -49,7 +49,12 @@ Copyright (c) 2019 elifents. All rights reserved.
       type: String
       default: YYYY-MM-DD
       The format of date-value in paper-datepicker. It supports all formats supplied by moment.js
- */
+
+  @group elifent
+  @element paper-datepicker
+  @demo demo/index.html
+
+*/
 
 import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
 import { mixinBehaviors } from "@polymer/polymer/lib/legacy/class";
@@ -607,7 +612,6 @@ class PaperDatepicker extends mixinBehaviors(
       this.$.yearList.scrollToIndex(onScreenYear - 1900);
     }
   }
-
 }
 
 window.customElements.define("paper-datepicker", PaperDatepicker);

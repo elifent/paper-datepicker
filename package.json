@@ -1,7 +1,24 @@
 {
-  "name": "paper-datepicker",
+  "name": "@elifent/paper-datepicker",
   "description": "Polymer 3 date picker element",
+  "version": "3.0.3",
   "main": "paper-datepicker.js",
+  "keywords": [
+    "polymer.js", 
+    "date picker",
+    "calendar",
+    "web-components"
+  ],
+  "author": "aneeshameed@elifent.tech",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elifent/paper-datepicker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/elifent/paper-datepicker/issues"
+  },
+  "homepage": "https://github.com/elifent/paper-datepicker#readme",
   "dependencies": {
     "@polymer/iron-flex-layout": "^3.0.1",
     "@polymer/iron-icons": "^3.0.1",
