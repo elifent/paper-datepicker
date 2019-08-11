@@ -3,11 +3,24 @@
 Copyright (c) 2019 elifents. All rights reserved.
 */
 
-/**
- * @customElement
- * @polymer
- * @elifent
- */
+import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
+import { mixinBehaviors } from "@polymer/polymer/lib/legacy/class";
+import { PaperDialogBehavior } from "@polymer/paper-dialog-behavior/paper-dialog-behavior";
+import "@polymer/paper-dialog-behavior/paper-dialog-shared-styles";
+import "@polymer/iron-flex-layout/iron-flex-layout";
+import "@polymer/iron-flex-layout/iron-flex-layout-classes";
+import "@polymer/paper-button/paper-button";
+import "@polymer/iron-icon/iron-icon";
+import "@polymer/iron-icons/hardware-icons";
+import "@polymer/paper-styles/color";
+import "@polymer/paper-item/paper-item";
+import "@polymer/paper-ripple/paper-ripple";
+import "@polymer/neon-animation/neon-animated-pages";
+import "@polymer/neon-animation/neon-animatable";
+import "@polymer/neon-animation/animations/fade-in-animation.js";
+import "@polymer/neon-animation/animations/fade-out-animation.js";
+import "web-animations-js/web-animations-next-lite.min.js";
+import "@polymer/iron-list/iron-list";
 
 /**
     paper-datepicker is a polymer element which used material design theme. paper-datepicker gives a modal dialog.
@@ -50,30 +63,13 @@ Copyright (c) 2019 elifents. All rights reserved.
       default: YYYY-MM-DD
       The format of date-value in paper-datepicker. It supports all formats supplied by moment.js
 
-  @group elifent
-  @element paper-datepicker
-  @demo demo/index.html
+* @customElement
+* @group elifent
+* @polymer
+* @element paper-datepicker
+* @demo /demo/index.html
 
 */
-
-import { html, PolymerElement } from "@polymer/polymer/polymer-element.js";
-import { mixinBehaviors } from "@polymer/polymer/lib/legacy/class";
-import { PaperDialogBehavior } from "@polymer/paper-dialog-behavior/paper-dialog-behavior";
-import "@polymer/paper-dialog-behavior/paper-dialog-shared-styles";
-import "@polymer/iron-flex-layout/iron-flex-layout";
-import "@polymer/iron-flex-layout/iron-flex-layout-classes";
-import "@polymer/paper-button/paper-button";
-import "@polymer/iron-icon/iron-icon";
-import "@polymer/iron-icons/hardware-icons";
-import "@polymer/paper-styles/color";
-import "@polymer/paper-item/paper-item";
-import "@polymer/paper-ripple/paper-ripple";
-import "@polymer/neon-animation/neon-animated-pages";
-import "@polymer/neon-animation/neon-animatable";
-import "@polymer/neon-animation/animations/fade-in-animation.js";
-import "@polymer/neon-animation/animations/fade-out-animation.js";
-import "web-animations-js/web-animations-next-lite.min.js";
-import "@polymer/iron-list/iron-list";
 
 import moment from "moment";
 /**
